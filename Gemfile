@@ -49,10 +49,15 @@ end
 # gem 'debugger', group: [:development, :test]
 
 
-gem 'spree', '2.2.0'
-gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
-gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
+#gem 'spree', '2.2.0'
+#gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
+#gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
 
-gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git', :branch => '2-2-stable'
+#gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git', :branch => '2-2-stable'
 #gem 'spree_fancy', :path => '../spree_fancy'
 #gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git'
+
+gem 'spree', :github => "spree/spree", branch: '2-1-stable'
+gem 'spree_auth_devise', :github => "spree/spree_auth_devise", branch: '2-1-stable'
+gem 'spree_marketplace', github: 'emcgee/spree_marketplace'
+gem 'spree_drop_ship', github: 'jdutil/spree_drop_ship'
